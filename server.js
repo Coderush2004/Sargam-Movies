@@ -12,7 +12,7 @@ app.use(express.json());      // Parse incoming JSON
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '202026',
+  password: '',
   database: 'sargam_movies'
 });
 
