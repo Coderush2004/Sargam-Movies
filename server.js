@@ -59,7 +59,7 @@ app.post('/book', (req, res) => {
   res.json({ success: true, message: `Booked ${seats} seat(s) for ${movie} on ${date}` });
 });
 
-// Start the server
+// Starting the server
 app.listen(port, () => {
   console.log(`✅ Server running on http://localhost:${port}`);
 });
